@@ -1,0 +1,25 @@
+{
+  "name": "sorting-algorithms-visualisation",
+  "version": "0.0.1",
+  "description": "Sorting algorithms visualisation",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "main": "index.js",
+  "author": "abeluzhenko",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.1",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.1.3",
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
